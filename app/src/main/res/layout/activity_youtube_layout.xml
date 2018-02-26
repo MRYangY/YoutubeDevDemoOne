@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.youtubedevdemoone.ActionBarPaddedFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/youtube_play_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!--<fragment-->
+        <!--android:id="@+id/player_fragment"-->
+        <!--android:name="com.google.android.youtube.player.YouTubePlayerFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/player_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.google.android.youtube.player.YouTubePlayerView>
+
+    </LinearLayout>
+
+</com.example.youtubedevdemoone.ActionBarPaddedFrameLayout>
